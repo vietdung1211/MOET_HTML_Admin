@@ -1,0 +1,87 @@
+.container {
+  background: #0071BB;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.container .admin {
+  background: #FFFFFF;
+  border-radius: 30px;
+  margin: auto;
+  width: 792px;
+}
+.container .admin .admin-login {
+  margin: 41px 39px 0 31px;
+}
+.container .admin .admin-login .admin-login__logo {
+  margin-bottom: 42px;
+  display: flex;
+  justify-content: center;
+}
+.container .admin .admin-login .mg-bottom {
+  margin-bottom: 26px;
+}
+.container .admin .admin-login .admin-login__name span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #272727;
+}
+.container .admin .admin-login .admin-login__name .admin-login__name-input {
+  position: relative;
+}
+.container .admin .admin-login .admin-login__name .admin-login__name-input input {
+  width: 100%;
+  padding: 14px 0 11px 19px;
+  background: #FFFFFF;
+  border: 1px solid #B8BDC6;
+  border-radius: 8px;
+}
+.container .admin .admin-login .admin-login__name .admin-login__name-input input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #283446;
+}
+.container .admin .admin-login .admin-login__name .admin-login__name-input img {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+}
+.container .admin .admin-login .admin-login__forget {
+  margin-top: 20px;
+}
+.container .admin .admin-login .admin-login__forget span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #0071BB;
+  text-align: right;
+  float: right;
+  margin-right: 8px;
+  margin-bottom: 23px;
+}
+.container .admin .admin-login .admin-login__button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 59px;
+}
+.container .admin .admin-login .admin-login__button button {
+  background: #0071BB;
+  border-radius: 32px;
+  border: none;
+}
+.container .admin .admin-login .admin-login__button button span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  padding: 21px 54px 20px 52px;
+  display: block;
+}
+
+/*# sourceMappingURL=admin.css.map */
